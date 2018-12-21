@@ -1,23 +1,25 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Jason</strong> Wu
+description: <a href="https://hcii.cmu.edu/">CMU HCII</a>. PhD Student, Human-Computer Interaction
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>HCII Institute</p>
+    <p>5000 Forbes Avenue</p>
+    <p>Pittsburgh, PA 15213</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a 1st year PhD Student at the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before I joined CMU, I graduated from [Georgia Institute of Technology](https://gatech.edu/) in 2018 with a B.S. in Computer Science. There, I worked at the [GT Ubicomp Lab](http://ubicomp.cc.gatech.edu/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My mission is to construct natural and expressive computer interfaces that intelligently assist all users, regardless of background or disability, in both the digital and physical worlds.
+
+To achieve this, I teach computers to **listen**, **understand**, and **respond** to users by creating novel input interactions, mobile health sensing systems, accessible computing devices, and natural language interfaces.
