@@ -88,7 +88,7 @@ scholar:
 
   last_name: Wu
 
-  style: apa
+  style: acm-sigchi-proceedings
   locale: en
 
   sort_by: year
