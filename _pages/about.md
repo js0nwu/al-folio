@@ -16,7 +16,7 @@ news: true
 social: true
 ---
 
-I'm a 1st year PhD Student at the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com).
+I'm a 2nd year PhD Student at the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com). My research is supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 Before I joined CMU, I graduated from [Georgia Institute of Technology](https://gatech.edu/) in 2018 with a B.S. in Computer Science. There, I worked at the [GT Ubicomp Lab](http://ubicomp.cc.gatech.edu/) and the [Contextual Computing Group](https://research.cc.gatech.edu/ccg/).
 
