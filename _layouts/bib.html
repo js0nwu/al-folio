@@ -73,6 +73,8 @@
   {% if entry.pdf %}
     [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
   {% endif %}
+  [<a href="{{ entry.key | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}.pdf" target="_blank">PDF</a>]
+
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
   {% endif %}

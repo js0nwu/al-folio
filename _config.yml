@@ -16,12 +16,12 @@ last_updated: # leave blank if you don't want to display last updated
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: ArkaneCow
-twitter_username: # your Twitter handle
-linkedin_username: arkanecow
+twitter_username: jasonwuishere
+linkedin_username: jsonwu
 scholar_userid: aKqh7zIAAAAJ
 orcid_id: # your ORCID ID
 contact_note: >
-  The best way to contact me is through my email. Looking forward to hearing from you!
+        The best way to contact me is through my email jsonwu AT cmu DOT edu. Looking forward to hearing from you!
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -87,6 +87,7 @@ plugins:
 scholar:
 
   last_name: Wu
+  first_name: ["Jason",]
 
   style: acm-sigchi-proceedings
   locale: en
