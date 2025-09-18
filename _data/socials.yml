@@ -14,7 +14,6 @@ email: jasonwu2@alumni.cmu.edu # your email address
 github_username: js0nwu
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
@@ -31,7 +30,6 @@ linkedin_username: jsonwu
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: aKqh7zIAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -48,7 +46,3 @@ scholar_userid: aKqh7zIAAAAJ # your Google Scholar ID
 x_username: jasonwuishere
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://jasonwunix.com/assets/img/prof_pic.jpg # can be png, svg, jpg
-  title: Website
-  url: https://jasonwunix.com/
