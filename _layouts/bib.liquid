@@ -230,6 +230,17 @@
       {% if pdf_link %}
         <a href="{{ pdf_link }}" class="pdf-button" role="button">PDF</a>
       {% endif %}
+      {% assign talk_link = nil %}
+      {% if entry.talk %}
+        {% if entry.talk contains '://' %}
+          {% assign talk_link = entry.talk %}
+        {% else %}
+          {% assign talk_link = entry.talk | prepend: '/assets/video/' | relative_url %}
+        {% endif %}
+      {% endif %}
+      {% if talk_link %}
+        <a href="{{ talk_link }}" class="talk-button" role="button">Talk Video</a>
+      {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>

@@ -27,6 +27,10 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
+    gem 'csv'
+    gem 'base64'
+    gem 'bigdecimal'
+    gem 'logger'
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'

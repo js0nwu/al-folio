@@ -287,8 +287,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
+  bigdecimal
   classifier-reborn
   css_parser
+  csv
   feedjira
   httparty
   jekyll
@@ -309,6 +312,7 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  logger
   observer
   ostruct
 

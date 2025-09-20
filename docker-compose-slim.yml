@@ -10,3 +10,5 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+      - BUNDLE_APP_CONFIG=.bundle
+      - BUNDLE_PATH=vendor/bundle

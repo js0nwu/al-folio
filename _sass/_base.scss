@@ -839,7 +839,8 @@ footer.sticky-bottom {
 
       .links {
         a.btn,
-        a.pdf-button {
+        a.pdf-button,
+        a.talk-button {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -872,7 +873,8 @@ footer.sticky-bottom {
           background: linear-gradient(135deg, rgba(181, 9, 172, 0.85), rgba(255, 138, 219, 0.75));
           border-color: rgba(181, 9, 172, 0.85);
         }
-        .pdf-button {
+        .pdf-button,
+        .talk-button {
           display: inline-block;
           padding: 0.35rem 1rem;
           border: 1px solid rgba(255, 255, 255, 0.7);
@@ -884,9 +886,17 @@ footer.sticky-bottom {
           border-radius: 6px;
           box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
         }
+        .talk-button {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.18) 100%), rgba(255, 112, 67, 0.35);
+        }
         html[data-theme="light"] .pdf-button {
           border-color: rgba(0, 0, 0, 0.4);
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.12) 100%), rgba(181, 9, 172, 0.15);
+          color: var(--global-theme-color);
+        }
+        html[data-theme="light"] .talk-button {
+          border-color: rgba(0, 0, 0, 0.35);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(0, 0, 0, 0.1) 100%), rgba(255, 171, 0, 0.18);
           color: var(--global-theme-color);
         }
       }
@@ -1533,7 +1543,7 @@ html[data-theme='light'] .featured-card {
   text-transform: uppercase;
   font-size: 1.15rem;
   letter-spacing: 0.12em;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   margin-bottom: 1rem;
 }
 
@@ -1625,3 +1635,5 @@ html[data-theme="dark"] .featured-body p {
     font-size: 1.6rem;
   }
 }
+
+.talk-button { margin-left: 0.5rem; }
