@@ -181,7 +181,11 @@
     <div class="periodical with-award">
       <span class="venue">{{ periodical | strip }}</span>
       {% if entry.award %}
-        <span class="award-badge" title="{{ entry.award }}">
+        <span
+          class="award-badge"
+          title="{{ entry.award }}"
+          style="margin-left:0.85rem;padding:0.22rem 0.9rem;border-radius:999px;display:inline-flex;align-items:center;gap:0.4rem;background:linear-gradient(135deg,rgba(38,152,186,0.3),rgba(38,152,186,0.08));color:var(--global-theme-color);font-size:0.82rem;font-weight:600;letter-spacing:0.03em;text-transform:uppercase;box-shadow:0 6px 12px rgba(0,0,0,0.12);border:1px solid rgba(38,152,186,0.25);"
+        >
           <i class="fa-solid fa-trophy"></i>
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </span>
