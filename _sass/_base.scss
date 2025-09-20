@@ -780,14 +780,14 @@ footer.sticky-bottom {
           display: inline-flex;
           align-items: center;
           flex-wrap: wrap;
-          gap: 0.45rem;
+          gap: 0.6rem;
         }
 
         .award-badge {
           display: inline-flex;
           align-items: center;
           gap: 0.3rem;
-          padding: 0.1rem 0.55rem;
+          padding: 0.12rem 0.65rem;
           border-radius: 999px;
           background: linear-gradient(135deg, rgba(230, 57, 70, 0.92), rgba(255, 193, 7, 0.82));
           color: #fff;
@@ -795,6 +795,9 @@ footer.sticky-bottom {
           font-weight: 600;
           letter-spacing: 0.03em;
           text-transform: uppercase;
+          margin-left: 0.15rem;
+          border: 1px solid rgba(255, 255, 255, 0.25);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
         }
 
         .award-badge i {
