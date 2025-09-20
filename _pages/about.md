@@ -7,7 +7,7 @@ description: <a href="https://www.apple.com/">Apple</a>. Research Scientist
 profile:
   align: right
   alttext: I am sitting in the driver's seat at the Olympic Game Farm in Seqium, Washington. Outside the window is a bison looking at the camera.
-  image: prof_pic.jpg
+  image: prof_pic.png
 
 news: true
 announcements:
