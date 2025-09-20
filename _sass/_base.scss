@@ -1541,7 +1541,8 @@ html[data-theme='light'] .featured-card {
 }
 
 html[data-theme="dark"] .featured-body p {
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--global-text-color);
+  opacity: 0.95;
 }
 
 @media (max-width: 576px) {
