@@ -40,6 +40,13 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.highlight and page.highlight.enabled %}
+      <div class="announcement-highlight">
+        <span class="highlight-icon">✨</span>
+        <div class="highlight-message">{{ page.highlight.message }}</div>
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

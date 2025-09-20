@@ -10,6 +10,11 @@ profile:
   image: prof_pic.jpg
 
 news: true
+announcements:
+  enabled: true
+highlight:
+  enabled: true
+  message: "I am joining Purdue CS as an assistant professor starting Spring 2026. I am looking to work with highly motivated students. Please contact me if you are interested!"
 social: true
 ---
 

@@ -49,6 +49,17 @@ table.table a {
   }
 }
 
+.link-highlight {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-theme-color);
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
@@ -788,7 +799,8 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        a.btn,
+        a.pdf-button {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -804,6 +816,23 @@ footer.sticky-bottom {
         }
         a.award.btn {
           border-color: var(--global-highlight-color);
+        }
+        .pdf-button {
+          display: inline-block;
+          padding: 0.35rem 1rem;
+          border: 1px solid rgba(255, 255, 255, 0.7);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.2) 100%), rgba(38, 152, 186, 0.3);
+          color: #ffffff;
+          font-weight: 600;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          border-radius: 6px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        }
+        html[data-theme="light"] .pdf-button {
+          border-color: rgba(0, 0, 0, 0.4);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.12) 100%), rgba(181, 9, 172, 0.15);
+          color: var(--global-theme-color);
         }
       }
 
@@ -1415,5 +1444,44 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+
+.announcement-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 2rem 0 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 12px;
+  background: linear-gradient(130deg, rgba(38, 152, 186, 0.15), rgba(38, 152, 186, 0.05));
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  color: var(--global-text-color);
+}
+
+html[data-theme='light'] .announcement-highlight {
+  background: linear-gradient(130deg, rgba(181, 9, 172, 0.15), rgba(181, 9, 172, 0.05));
+  border-left-color: rgba(181, 9, 172, 0.6);
+}
+
+.announcement-highlight .highlight-icon {
+  font-size: 1.8rem;
+}
+
+.announcement-highlight .highlight-message {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+@media (max-width: 576px) {
+  .announcement-highlight {
+    flex-direction: column;
+    text-align: left;
+  }
+  .announcement-highlight .highlight-icon {
+    font-size: 1.6rem;
   }
 }
