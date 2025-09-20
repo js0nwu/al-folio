@@ -733,16 +733,16 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
+    list-style: none !important;
     padding: 0;
     margin: 0;
 
     > li {
-      list-style: none;
+      list-style: none !important;
       margin-bottom: 1rem;
 
       &::marker {
-        content: none;
+        content: '';
       }
 
       .preview {
