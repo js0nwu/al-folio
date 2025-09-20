@@ -12,9 +12,25 @@ profile:
 news: true
 announcements:
   enabled: true
+  limit: 10
 highlight:
   enabled: true
   message: "I am joining Purdue CS as an assistant professor starting Spring 2026. I am looking to work with highly motivated students. Please contact me if you are interested!"
+featured_projects:
+  enabled: true
+  items:
+    - title: RLDF
+      description: Improving UI generation models with designer feedback while aligning with real workflows.
+      link: /publications/#wu2025rldf
+      image: assets/img/publication_preview/extracted/wu2025rldf.png
+    - title: UIClip
+      description: A data-driven model for assessing user interface design quality at scale.
+      link: /publications/#wu2024uiclip
+      image: assets/img/publication_preview/extracted/wu2024uiclip.png
+    - title: UICoder
+      description: Fine-tuning large language models to generate UI code from automated feedback loops.
+      link: /publications/#wu2024uicoder
+      image: assets/img/publication_preview/extracted/wu2024uicoder.png
 social: true
 ---
 
