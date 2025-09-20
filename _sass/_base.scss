@@ -771,6 +771,37 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .periodical {
+        font-size: 0.95rem;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.15rem;
+
+        &.with-award {
+          display: inline-flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 0.45rem;
+        }
+
+        .award-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.3rem;
+          padding: 0.1rem 0.55rem;
+          border-radius: 999px;
+          background: linear-gradient(135deg, rgba(230, 57, 70, 0.92), rgba(255, 193, 7, 0.82));
+          color: #fff;
+          font-size: 0.78rem;
+          font-weight: 600;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+        }
+
+        .award-badge i {
+          font-size: 0.8rem;
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -815,7 +846,23 @@ footer.sticky-bottom {
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          display: inline-flex;
+          align-items: center;
+          gap: 0.35rem;
+          background: linear-gradient(135deg, rgba(183, 28, 28, 0.85), rgba(255, 138, 101, 0.75));
+          border-color: rgba(183, 28, 28, 0.9);
+          color: #fff !important;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+        }
+        a.award.btn:hover {
+          background: linear-gradient(135deg, rgba(230, 57, 70, 0.95), rgba(255, 183, 77, 0.85));
+          border-color: rgba(230, 57, 70, 0.95);
+        }
+        html[data-theme="light"] .links a.award.btn {
+          background: linear-gradient(135deg, rgba(181, 9, 172, 0.85), rgba(255, 138, 219, 0.75));
+          border-color: rgba(181, 9, 172, 0.85);
         }
         .pdf-button {
           display: inline-block;
