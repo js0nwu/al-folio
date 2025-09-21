@@ -19,18 +19,18 @@ highlight:
 featured_projects:
   enabled: true
   items:
-    - title: RLDF
-      description: Improving UI generation models with designer feedback while aligning with real workflows.
-      link: /publications/#wu2025rldf
-      image: assets/img/publication_preview/extracted/wu2025rldf.png
     - title: UIClip
-      description: A data-driven model for assessing user interface design quality at scale.
+      description: UIClip is a data-driven model that scores the design quality of user interfaces.
       link: /publications/#wu2024uiclip
       image: assets/img/publication_preview/extracted/wu2024uiclip.png
     - title: UICoder
-      description: Fine-tuning large language models to generate UI code from automated feedback loops.
+      description: A UI code generation model trained to generate syntactically correct and visually relevant UI programs.
       link: /publications/#wu2024uicoder
       image: assets/img/publication_preview/extracted/wu2024uicoder.png
+    - title: Reinforcement Learning from Designer Feedback
+      description: Developing workflows and reward models that encode professional designers' expertise.
+      link: /publications/#wu2025rldf
+      image: assets/img/publication_preview/extracted/wu2025rldf.png
 social: true
 ---
 
