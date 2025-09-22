@@ -20,7 +20,7 @@ featured_projects:
   enabled: true
   tabs:
     - label: Reward Modeling
-      description: "How can we encode expertise from HCI experts like designers and use them to improve AI?"
+      description: "How can we encode expertise from HCI experts like designers into reward models and use them to improve AI?"
       items:
         - title: UIClip
           description: UIClip is a data-driven model that scores the design quality of user interfaces.
