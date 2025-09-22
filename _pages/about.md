@@ -15,7 +15,7 @@ announcements:
   limit: 5
 highlight:
   enabled: true
-  message: "I am joining Purdue CS as an assistant professor starting Spring 2026. I am looking to work with highly motivated students. Please contact me if you are interested! Apply by following the [Purdue CS graduate admissions process](https://www.cs.purdue.edu/graduate/admission/steps.html)."
+  message: "I am joining Purdue CS as an assistant professor starting Spring 2026. I am looking to work with highly motivated students. Please contact me if you are interested! Apply by following the <a href=\"https://www.cs.purdue.edu/graduate/admission/steps.html\">Purdue CS graduate admissions process</a>."
 featured_projects:
   enabled: true
   tabs:
