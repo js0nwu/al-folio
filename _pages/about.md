@@ -86,4 +86,4 @@ I'm a Research Scientist in the Human-Centered Machine Intelligence group at [Ap
 
 Before I joined CMU, I graduated from [Georgia Institute of Technology](https://gatech.edu/) in 2018 with a B.S. in Computer Science. There, I worked at the [GT Ubicomp Lab](http://ubicomp.cc.gatech.edu/) and the [Contextual Computing Group](https://research.cc.gatech.edu/ccg/).
 
-My research applies data-driven modeling and other computational methods to make user interfaces more accessible and usable.
+My research applies computational modeling to understand and improve how humans interact with computers.
