@@ -46,7 +46,7 @@ featured_projects:
           link: /publications/#wu2021screen
           image: assets/img/publication_preview/extracted/wu2021screen.png
         - title: Never-ending Learning of User Interfaces
-          description: Continually learns UI representations across apps to expand accessibility coverage.
+          description: An agent that continually learns UI semantics by interacting with real apps.
           link: /publications/#wu2023never
           image: assets/img/publication_preview/extracted/wu2023never.png
     - label: Interface Authoring
