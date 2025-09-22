@@ -1559,6 +1559,74 @@ html[data-theme='light'] .featured-card {
 
 .featured-projects {
   margin: 1.5rem 0 2.5rem 0;
+  padding: 2.25rem 2rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(38, 152, 186, 0.14), rgba(38, 152, 186, 0.04));
+  border: 1px solid rgba(38, 152, 186, 0.2);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme="light"] .featured-projects {
+  background: linear-gradient(135deg, rgba(181, 9, 172, 0.12), rgba(181, 9, 172, 0.05));
+  border-color: rgba(181, 9, 172, 0.15);
+}
+
+.featured-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.featured-tabs .tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.featured-tabs .tab-button {
+  border: 1px solid var(--global-text-color);
+  background: transparent;
+  color: var(--global-text-color);
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-tabs .tab-button:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.featured-tabs .tab-button.is-active {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+  border-color: var(--global-theme-color);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.featured-tabs .tab-panels {
+  position: relative;
+}
+
+.featured-tabs .tab-panel {
+  display: none;
+}
+
+.featured-tabs .tab-panel.is-active {
+  display: block;
+}
+
+.featured-tabs .tab-description {
+  margin: 0 0 1rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-family: var(--global-heading-font, inherit);
+  color: var(--global-text-color);
 }
 
 .featured-projects .featured-title {

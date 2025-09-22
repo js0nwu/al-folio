@@ -49,19 +49,68 @@ layout: default
     {% if page.featured_projects and page.featured_projects.enabled %}
       <div class="featured-projects">
         <h2 class="featured-title">featured projects</h2>
-        <div class="featured-grid">
-          {% for project in page.featured_projects.items %}
-            <a class="featured-card" href="{{ project.link | relative_url }}">
-              <div class="featured-thumb">
-                <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail">
-              </div>
-              <div class="featured-body">
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.description }}</p>
-              </div>
-            </a>
-          {% endfor %}
-        </div>
+        {% assign project_tabs = page.featured_projects.tabs %}
+        {% if project_tabs %}
+          <div class="featured-tabs" data-featured-tabs>
+            <div class="tab-buttons" role="tablist">
+              {% for tab in project_tabs %}
+                <button
+                  type="button"
+                  class="tab-button{% if forloop.first %} is-active{% endif %}"
+                  role="tab"
+                  aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+                  aria-controls="featured-tab-{{ forloop.index0 }}"
+                  id="featured-tab-button-{{ forloop.index0 }}"
+                  data-tab-target="featured-tab-{{ forloop.index0 }}"
+                >{{ tab.label }}</button>
+              {% endfor %}
+            </div>
+            <div class="tab-panels">
+              {% for tab in project_tabs %}
+                <div
+                  class="tab-panel{% if forloop.first %} is-active{% endif %}"
+                  role="tabpanel"
+                  aria-labelledby="featured-tab-button-{{ forloop.index0 }}"
+                  aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}"
+                  tabindex="{% if forloop.first %}0{% else %}-1{% endif %}"
+                  id="featured-tab-{{ forloop.index0 }}"
+                  data-tab-panel="featured-tab-{{ forloop.index0 }}"
+                >
+                  {% if tab.description %}
+                    <p class="tab-description">{{ tab.description }}</p>
+                  {% endif %}
+                  <div class="featured-grid">
+                    {% for project in tab.items %}
+                      <a class="featured-card" href="{{ project.link | relative_url }}">
+                        <div class="featured-thumb">
+                          <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail">
+                        </div>
+                        <div class="featured-body">
+                          <h3>{{ project.title }}</h3>
+                          <p>{{ project.description }}</p>
+                        </div>
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% elsif page.featured_projects.items %}
+          <div class="featured-grid">
+            {% for project in page.featured_projects.items %}
+              <a class="featured-card" href="{{ project.link | relative_url }}">
+                <div class="featured-thumb">
+                  <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail">
+                </div>
+                <div class="featured-body">
+                  <h3>{{ project.title }}</h3>
+                  <p>{{ project.description }}</p>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -103,3 +152,31 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-featured-tabs]').forEach(function (tabsComponent) {
+      const buttons = tabsComponent.querySelectorAll('.tab-button');
+      const panels = tabsComponent.querySelectorAll('.tab-panel');
+
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          const targetId = button.getAttribute('data-tab-target');
+
+          buttons.forEach(function (btn) {
+            const isActive = btn === button;
+            btn.classList.toggle('is-active', isActive);
+            btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          });
+
+          panels.forEach(function (panel) {
+            const isActive = panel.getAttribute('data-tab-panel') === targetId;
+            panel.classList.toggle('is-active', isActive);
+            panel.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+            panel.setAttribute('tabindex', isActive ? '0' : '-1');
+          });
+        });
+      });
+    });
+  });
+</script>
