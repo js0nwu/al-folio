@@ -27,7 +27,7 @@ featured_projects:
           link: /publications/#wu2024uiclip
           image: assets/img/publication_preview/extracted/wu2024uiclip.png
         - title: UICoder
-          description: A UI code generation model trained to generate syntactically correct and visually relevant UI programs.
+          description: Finetuning Large Language Models (LLMs) to generate higher quality UIs through automated compiler and VLM design feedback.
           link: /publications/#wu2024uicoder
           image: assets/img/publication_preview/extracted/wu2024uicoder.png
         - title: Reinforcement Learning from Designer Feedback
