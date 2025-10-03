@@ -61,7 +61,7 @@ featured_projects:
           link: /publications/#leung2025squire
           image: assets/img/publication_preview/extracted/leung2025squire.png
         - title: Towards Automated Accessibility Report Generation for Mobile Apps
-          description: Automates accessibility reporting pipelines for mobile applications at scale.
+          description: Automated crawling and detection of accessibility issues in apps.
           link: /publications/#swearngin2024towards
           image: assets/img/publication_preview/extracted/swearngin2024towards.png
     - label: Contextual Interfaces
