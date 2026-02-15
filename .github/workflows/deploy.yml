@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - upgrade/al-folio-v0.14.6
     paths:
       - "assets/**"
       - "_sass/**"
@@ -34,6 +35,7 @@ on:
     branches:
       - master
       - main
+      - upgrade/al-folio-v0.14.6
     paths:
       - "assets/**"
       - "_sass/**"
