@@ -2,6 +2,8 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@use "sass:color";
+
 // Typography
 
 p,
@@ -875,8 +877,12 @@ footer.sticky-bottom {
           border-color: rgba(230, 57, 70, 0.95);
         }
         html[data-theme="light"] .links a.award.btn {
-          background: linear-gradient(135deg, rgba(181, 9, 172, 0.85), rgba(255, 138, 219, 0.75));
-          border-color: rgba(181, 9, 172, 0.85);
+          background: linear-gradient(
+            135deg,
+            rgba($blue-color, 0.85),
+            rgba(color.adjust($blue-color, $lightness: 25%), 0.75)
+          );
+          border-color: rgba($blue-color, 0.85);
         }
         .pdf-button,
         .talk-button,
@@ -913,7 +919,12 @@ footer.sticky-bottom {
         html[data-theme="light"] .github-button,
         html[data-theme="light"] .video-button {
           border-color: rgba(0, 0, 0, 0.4);
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.12) 100%), rgba(181, 9, 172, 0.15);
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.2) 0%,
+              rgba(0, 0, 0, 0.12) 100%
+            ),
+            rgba($blue-color, 0.15);
           color: var(--global-theme-color);
         }
         html[data-theme="light"] .talk-button {
@@ -1549,8 +1560,12 @@ figure.cover {
 }
 
 html[data-theme='light'] .announcement-highlight {
-  background: linear-gradient(130deg, rgba(181, 9, 172, 0.15), rgba(181, 9, 172, 0.05));
-  border-left-color: rgba(181, 9, 172, 0.6);
+  background: linear-gradient(
+    130deg,
+    rgba($blue-color, 0.15),
+    rgba(color.adjust($blue-color, $lightness: 30%), 0.05)
+  );
+  border-left-color: rgba($blue-color, 0.6);
 }
 
 html[data-theme='light'] .featured-card {
@@ -1567,8 +1582,12 @@ html[data-theme='light'] .featured-card {
 }
 
 html[data-theme="light"] .featured-projects {
-  background: linear-gradient(135deg, rgba(181, 9, 172, 0.12), rgba(181, 9, 172, 0.05));
-  border-color: rgba(181, 9, 172, 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba($blue-color, 0.12),
+    rgba(color.adjust($blue-color, $lightness: 30%), 0.05)
+  );
+  border-color: rgba($blue-color, 0.15);
 }
 
 .featured-tabs {

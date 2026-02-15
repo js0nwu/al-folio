@@ -14,8 +14,7 @@ announcements:
   enabled: true
   limit: 5
 highlight:
-  enabled: true
-  message: "I am joining Purdue CS as an assistant professor starting Spring 2026. I am looking to work with highly motivated students. Please contact me if you are interested! Apply by following the <a href=\"https://www.cs.purdue.edu/graduate/admission/steps.html\">Purdue CS graduate admissions process</a>."
+  enabled: false
 featured_projects:
   enabled: true
   tabs:
@@ -82,7 +81,7 @@ featured_projects:
 social: true
 ---
 
-I'm a Research Scientist in the Human-Centered Machine Intelligence group at [Apple](https://www.apple.com). I previously earned my PhD from the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com). My PhD research was supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm an Assistant Professor in the [Department of Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/). Previously, I was a Research Scientist in the [Human-Centered Machine Intelligence](http://machinelearning.apple.com/) group at [Apple](https://www.apple.com/). I earned my PhD from the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com). My PhD research was supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 Before I joined CMU, I graduated from [Georgia Institute of Technology](https://gatech.edu/) in 2018 with a B.S. in Computer Science. There, I worked at the [GT Ubicomp Lab](http://ubicomp.cc.gatech.edu/) and the [Contextual Computing Group](https://research.cc.gatech.edu/ccg/).
 
