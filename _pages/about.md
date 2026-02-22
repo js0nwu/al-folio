@@ -81,7 +81,7 @@ featured_projects:
 social: true
 ---
 
-I'm an Assistant Professor in the [Department of Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/). Previously, I was a Research Scientist in the [Human-Centered Machine Intelligence](http://machinelearning.apple.com/) group at [Apple](https://www.apple.com/). I earned my PhD from the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com). My PhD research was supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm an Assistant Professor in the [Department of Computer Science](https://www.cs.purdue.edu/) at [Purdue University](https://www.purdue.edu/) and directory of the [CIDER Lab](https://ciderlab.org). Previously, I was a Research Scientist in the [Human-Centered Machine Intelligence](http://machinelearning.apple.com/) group at [Apple](https://www.apple.com/). I earned my PhD from the [Carnegie Mellon](https://www.cmu.edu/) [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by Professor [Jeffrey Bigham](http://jeffreybigham.com). My PhD research was supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 Before I joined CMU, I graduated from [Georgia Institute of Technology](https://gatech.edu/) in 2018 with a B.S. in Computer Science. There, I worked at the [GT Ubicomp Lab](http://ubicomp.cc.gatech.edu/) and the [Contextual Computing Group](https://research.cc.gatech.edu/ccg/).
 
